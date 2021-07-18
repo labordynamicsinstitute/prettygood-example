@@ -10,7 +10,8 @@ Data can be downloaded from https://doi.org/10.3886/ICPSR13568.v1
 
 ## Requirements
 
-Runtime: approximatly 1.6s on 2016 vintage Linux workstation.
+Runtime: approximatly 1.6s on  Windows 64-bit, PC (64-bit x86-64) with Processors: 8
+Stata Packages: latab available in SSC
 
 ## Code
 

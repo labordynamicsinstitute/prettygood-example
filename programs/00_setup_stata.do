@@ -4,7 +4,7 @@ include "config.do"
 /* create directories if they don't exist*/
 capture mkdir "$outputdata"
 capture mkdir "$results"
-capture mkdir "$logdir"
+
 
 /* install any packages locally */
 capture mkdir "$adobase"

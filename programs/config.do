@@ -19,14 +19,14 @@ global outputdata "$basepath/data/outputdata" // this is where you would write t
 global results "$basepath/tables"       // All tables for inclusion in your paper go here
 global programs "$basepath/programs"    // All programs (which you might "include") are to be found here
 global adobase  "$basepath/programs/ado" // Ado packages used by the project are to be found here
-global logdir "$basepath/logs"
 
 
 /* Create a log file */
+capture mkdir "$logdir"
 local c_date = c(current_date)
 local cdate = subinstr("`c_date'", " ", "_", .)
 local logprefix "logfile" // could be "myprog" or something else or could come from the main program 
-cap log using "${logdir}/`logprefix'_`cdate'.log", replace text
+cap log using "`logprefix'_`cdate'.log", replace text
 
 
 
