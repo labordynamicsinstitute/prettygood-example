@@ -80,7 +80,7 @@ For additional guidance, see [https://aeadataeditor.github.io/aea-de-guidance/da
 Data checks
 -----------
 
-- Data can be read using Notepad, Data is in TXT format. 
+- Data can be read using standard tools, Data is in TXT format. 
 - Dataset does not have variable labels, but comes with a separate documentation TXT file. 
 - Dataset is not in .dta format so replicator was unable to run the PII_stata_scan.do program. 
 
