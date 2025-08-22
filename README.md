@@ -2,7 +2,7 @@
 
 ## Data
 
-Data is public-use, but requires login at ICPSR. 
+Data is public-use, but requires login at ICPSR. Adding stuff here.
 
 Data can be downloaded from https://doi.org/10.3886/ICPSR13568.v1
 Data should extracted from zip file and placed into folder "data". Note that the files structure of the downloaded data is maintained but only subfolder DS0002 (Alaska) is used.
